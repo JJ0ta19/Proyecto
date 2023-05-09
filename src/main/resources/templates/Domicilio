@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Domicilio</title>
+    </head>
+    <style>
+        body{
+            font-family: sans-serif;
+            background: url(imagenes/ImagenIniciar.webp);
+            background-size: 250vh;
+            background-repeat: no-repeat;
+        }
+        .contenedor{
+            background-color:whitesmoke;
+            height: 40vh;
+            margin: 5%;
+            color:black;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <body>
+        <h1>Domicilio</h1>
+        <div class="contenedor">
+            <hr>
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre">
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido">
+            <label for="Direccion">Dirección</label>
+            <input type="text" id="Direccion">
+        </div>
+    </body>
+</html>

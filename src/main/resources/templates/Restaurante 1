@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>KFC</title>
+</head>
+<style>
+    body{
+        border: 15px solid black;
+        margin: 0;
+        padding: 0;
+        background: url(imagenes/KFC.png);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+    .enlace{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .contenedor{
+        background-color:antiquewhite;
+        height: 20vh;
+        margin: 3%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        display: flex;
+        height: 120vh;
+        margin: 6%;
+        flex-direction: column;
+        background-color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+    }
+    .contacto{
+        display: flex;
+        height: 20vh;
+        margin: 6%;
+        flex-direction: column;
+        background-color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+    }
+    b{
+            display: block;
+            width: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            background-color: red;
+            border-radius: 10px;
+            padding: 15px 30px;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        b:hover{
+            background-color: transparent;
+            border: 2px solid blue;
+            color: blue;
+        }
+</style>
+<div class="contenedor">
+    <h1>Bienvenidos a KFC</h1>
+    <h3>¿Que deseas ordenar?</h3>
+</div>
+<div class="menu">
+    <h2><i>MENÚ</i></h2>
+    <hr>
+    <img src="imagenes/PlatosKFC1.png" widht="300" height="300"/>
+<div class="enlace">
+    <br>
+    <b target="_blank" href="#">PEDIR</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b target="_blank" href="#">PEDIR</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b target="_blank" href="#">PEDIR</b>
+</div>
+    <img src="imagenes/PlatosKFC2.png" width="550" height="300"/>
+<div class="enlace">
+    <b target="_blank" href="#">PEDIR</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <b target="_blank" href="#">PEDIR</b>
+</div>
+</div>
+<div class="contacto">
+    <br/>
+    <h2>Contactenos</h2>
+    <a href="mailto:afavila-2022a@corhuila.edu.co"><h3>afavila-2022a@corhuila.edu.co</h3></a>
+    <br/>
+</div>
+</html>

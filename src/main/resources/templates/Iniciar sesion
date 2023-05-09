@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Inicio de Sesion</title>
+
+    <!-- Centrar -->
+    <style>
+        body{
+            font-family: sans-serif;
+            background: url(imagenes/ImagenIniciar.webp);
+            background-size: 250vh;
+            background-repeat: no-repeat;
+        }
+
+        .contenedor{
+            background-color:whitesmoke;
+            height: 40vh;
+            margin: 5%;
+            color:black;
+
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .datossesion{
+            display: flex;
+            justify-content: center;
+        }
+        a{
+            display: block;
+            width: 57px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            background-color: red;
+            border-radius: 10px;
+            padding: 15px 30px;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: transparent;
+            border: 2px solid blue;
+            color: blue;
+        }
+    </style>
+    <body>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div class="contenedor">
+            <H1>Iniciar Sesion</H1>
+            <form><h3>
+                <br/>
+                <label for="Usuario">Usuario</label>
+                <input type="email" placeholder="Escribe tu usuario" id="Usuario">
+                <hr>
+                <label for="Contraseña">Contraseña</label>
+                <input type="password" placeholder="Escribe tu contraseña" id="Contraseña">
+            </h3></form>
+        <a target="_blank" href="file:///C:/Users/alvar/OneDrive/Escritorio/Codigos/Programacion%20II/Proyecto/Restaurantes">INICIAR</a>
+        </div>
+    </body>
